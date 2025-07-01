@@ -4,20 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer</title>
- <script>
-    // 🔐 Block direct access
-    if (!sessionStorage.getItem("isLoggedIn")) {
-      location.replace("../../login.html");
-    }
-
-    // 🛑 Block Chrome back button
-    window.addEventListener("DOMContentLoaded", () => {
-      history.pushState(null, "", location.href);
-      window.addEventListener("popstate", () => {
-        history.pushState(null, "", location.href);
-      });
-    });
-  </script>
+ <script src="admin.js"></script>
 </head>
 <body>
   <h1>Welcome, Customer!</h1>
