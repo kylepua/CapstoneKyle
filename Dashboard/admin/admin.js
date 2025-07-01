@@ -2,7 +2,8 @@
       location.replace("../../login.html");
     }
 
-    // 🛑 Block Chrome back button
+    // 🛑 Block Chrome back button 
+    //test
     window.addEventListener("DOMContentLoaded", () => {
       history.pushState(null, "", location.href);
       window.addEventListener("popstate", () => {
