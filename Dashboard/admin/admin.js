@@ -3,7 +3,7 @@
     }
 
     // 🛑 Block Chrome back button 
-    
+    //t
     window.addEventListener("DOMContentLoaded", () => {
       history.pushState(null, "", location.href);
       window.addEventListener("popstate", () => {
