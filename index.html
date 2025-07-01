@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script type="module" src="./Database/db_config.js" ></script>
+    <script src="script.js"></script>
+    <title>PetStop Veterinary Clinic</title>
+</head>
+
+<body>
+    
+    <!-- header -->
+    <header class="header">
+    <a href = "#" class="logo"><i class="fas fa-paw"></i> PetStop Veterinary Clinic</a>
+
+        <nav class="navbar">
+            <a href="#home" id="home-nav">Home</a>
+            <a href ="#services" id="services-nav">Services</a>
+            <a href ="#about" id="abt-nav">About</a>
+            <a href ="#doctors" id="doc-nav">Doctors</a>
+            <a href ="#news" id="news-nav">News</a>
+            <a href ="auth/login.html">Login</a>
+         </nav>
+
+    <div id ="menu-btn" class="fas fa-bars"></div>
+</header>
+
+<!-- home -->
+<section class="home" id="home">
+    <div class="image">
+        <img src="images/doc1nobg.gif" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Every paw matters</h3>
+        <p>Your pet's happiness is our priority. We provide expert care, from grooming to vet visits, ensuring a healthy and joyful life for your furry friend.</p>
+        <button class="btn" id="home-btn">Get Started<span class="fas fa-chevron-right"></span></button>
+    </div> 
+
+</section>
+
+<!-- icons -->
+<section class="icons-container">
+    
+    <div class="icons">
+        <i class = "fas fa-dog"></i>
+        <h3>1000+</h3>
+        <p>Protected Pets</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3>600+</h3>
+        <p>Satisfied Pet Owners</p>
+    </div>
+
+    <div class="icons">
+        <i class="fa fa-thumbs-up"></i>
+        <h3>2000+</h3>
+        <p>Positive Ratings</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-paw"></i>
+        <h3>20+</h3>
+        <p>Years of Experience</p>
+    </div>
+</section>
+
+    <!-- Services -->
+     <section class="services" id="services">
+        <h1 class="heading">Our <span>Services</span></h1>
+         <div class ="box-container">
+
+            <div class="box">
+                <i class="fa-solid fa-shield-dog"></i>
+                <h3>Pet Health Treatments</h3>
+                <p>Comprehensive health check-ups and treatments for your furry friends.</p>
+                <button class ="btn" id="lm-1">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+           <div class="box">
+                <i class="fa-solid fa-notes-medical"></i>
+                <h3>Consultation</h3>
+                <p>Expert advice and support for all your pet's health needs.</p>
+                <button class ="btn" id="lm-2">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-syringe"></i>
+                <h3>Vaccination</h3>
+                <p>Protect your pet from harmful diseases with our vaccination services.</p>
+                <button class ="btn" id="lm-3" >Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+            <div class="box">
+               <i class="fa-solid fa-scissors"></i>
+                <h3>Grooming</h3>
+                <p>Keep your pet looking and feeling great with our grooming services.</p>
+                <button class ="btn" id="lm-4">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-flask-vial"></i>
+                <h3>Laboratory</h3>
+                <p>Accurate diagnostics and testing for your pet's health and their well-being.</p>
+                <button class ="btn" id="lm-5">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-shield-virus"></i>
+                <h3>Deworming</h3>
+                <p>Protect your pet from intestinal parasites with our deworming services.</p>
+                <button class ="btn" id="lm-6">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+
+        </div>
+    </section>
+<!-- About -->
+ <section class="about" id="about">
+    <h1 class="heading">About <span>Us</span>
+
+    <div class ="row">
+        <div class="image">
+            <img src="images/about1.png" alt="">
+        </div>    
+
+        <div class="content">
+            <h3>Welcome to PetStop Veterinary Clinic</h3>
+            <p>At PetStop, we are dedicated to providing the best care for your pets. Our team of experienced veterinarians and staff are here to ensure your furry friends receive the love and attention they deserve.</p>
+            <p>From routine check-ups to emergency care, we offer a wide range of services to keep your pets healthy and happy. We believe in treating every pet as if they were our own, with compassion and expertise.</p>
+            <button class ="btn" id="abt">Learn More<span class="fas fa-chevron-right"></span></button>
+        </div>
+    </div>
+    </section>
+
+<!-- Doctors -->
+ <section class="doctors" id="doctors">
+    <h1 class ="heading">Our <span>Team</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Staff1.jpg" alt="">
+            <h3>Dr. Donna Doll Diones</h3>
+            <span>Veterinarian/Owner</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Staff3.webp" alt="">
+            <h3>Mr. Jenie Boy Esconde</h3>
+            <span>Clinic Assistant</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Staff2.jpg" alt="">
+            <h3>Mr. Ruben Estorninos</h3>
+            <span>Groomer</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--News-->
+<section class ="news" id="news">
+    <h1 class="heading">Latest <span>News</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+              <img src="images/news1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href > <i class="fa-solid fa-calendar"></i> 01 May, 2024</a>
+                    <a href="#"> <i class="fas fa-user"></i> By admin</a>
+                </div>
+                <h3>Pet Health Awareness Month</h3>
+                <p>Join us in promoting pet health awareness this month with special events and discounts.</p>
+                <button class="btn" id="news1">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+              <img src="images/news2.webp" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-calendar"></i> 01 May, 2024</a>
+                    <a href="#"><i class="fas fa-user"></i> By admin</a>
+                </div>
+                <h3>New Vaccination Schedule</h3>
+                <p>Check out our updated vaccination schedule to keep your pets protected.</p>
+                <button class="btn" id="news2">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+        </div>
+            
+       <div class="box">
+            <div class="image">
+              <img src="images/news3.webp" alt="">
+            </div>
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fa-solid fa-calendar"></i> 01 May, 2024</a>
+                    <a href="#"> <i class="fas fa-user"></i> By admin</a>
+                </div>
+                <h3>Grooming Tips for Summer</h3>
+                <p>Keep your pets cool and comfortable this summer with our grooming tips.</p>
+                <button class="btn" id="news3">Learn More <span class="fas fa-chevron-right"></span></button>
+            </div>
+
+    </div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+                <a href="#home" id="home-foot"> <i class="fas fa-chevron-right"></i>Home</a>
+                <a href="#services" id="services-foot"> <i class="fas fa-chevron-right"></i>Services</a>
+                <a href="#about" id="abt-foot"> <i class="fas fa-chevron-right"></i>About</a>
+                <a href="#doctors" id="doc-foot"> <i class="fas fa-chevron-right"></i>Doctors</a>
+                <a href="#news" id="news-foot"> <i class="fas fa-chevron-right"></i>News</a>
+                <a href="auth/login.html"> <i class="fas fa-chevron-right"></i>Login</a>
+        </div>
+
+        <div class="box">
+            <h3>Our Services</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Pet Health Treatments</a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Consultation</a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Vaccination</a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Grooming</a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Laboratory</a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Deworming</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+                <a href="#"> <i class="fa-solid fa-phone"></i> +63 906-494-1765</a>
+                <a href="#"> <i class="fa-solid fa-phone"></i>+63 948-774-2135 </a>
+                <a href="#"> <i class="fa-solid fa-envelope"></i>msdollyclone@gmail.com</a>
+                <a href="#"> <i class="fa-solid fa-map-marker-alt"></i> BLK 2 LOT 21 CAVITE VIEJO</a>
+                
+        </div>
+
+         <div class="box">
+            <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/petstopveterinaryclinic"> <i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+        <div class="credit">
+            <p>Created by <span>Capstone Group</span> | All rights reserved!</p>
+        </div>
+
+
+</section>
+
+<div class="modal-container" id="modal-container">
+        <div class="modal">
+            <h1><i class="fa-solid fa-check"></i> You're Almost Ready!</h1>
+            <p>If you're a new pet parent, please sign up first to create your account and access our services.
+            Already have an account? Simply log in by clicking the "Login" button above. We're excited to care for your furry friend!
+            </p>
+    
+            <button class="exit" id="exit">
+                Exit
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

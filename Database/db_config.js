@@ -1,21 +1,21 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// js/db_config.js
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyDsvJftVZZkDVCpp4GnOGKeN9vYUU_AdP4",
-  authDomain: "capstone-2-88846.firebaseapp.com",
-  projectId: "capstone-2-88846",
-  storageBucket: "capstone-2-88846.firebasestorage.app",
-  messagingSenderId: "850307767325",
-  appId: "1:850307767325:web:50c05dbdfb9a50028b7af4",
-  measurementId: "G-MWGBCCZ2V9"
+  apiKey: "AIzaSyDtDApHuFcav9QIZaJ8CDIcyI_fxcO4Kzw",
+  authDomain: "fir-demo-66ae2.firebaseapp.com",
+  projectId: "fir-demo-66ae2",
+  storageBucket: "fir-demo-66ae2.appspot.com", // ✅ Fix the domain typo here
+  messagingSenderId: "505962707376",
+  appId: "1:505962707376:web:4fb32e2e4b04e9bca93e75",
+  measurementId: "G-JYDG36FQMX"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+
+// Export Firestore instance
+const db = getFirestore(app);
+export { db };
